@@ -1,0 +1,20 @@
+{
+    "prefix": " ",
+    "dataset": "cifar224",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 10,
+    "model_name": "slca",
+    "convnet_type": "vit-b-p16",
+    "device": ["0"],
+    "seed": [1993],
+
+    "model_postfix": "",
+    "epochs": 20,
+    "ca_epochs": 5,
+    "ca_with_logit_norm": 0.1,
+    "milestones": [18]
+}
